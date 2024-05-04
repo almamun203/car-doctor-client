@@ -4,6 +4,7 @@ import {
 import MainLayout from "../Layout/MainLayout";
 import Error from "../Pages/Error";
 import Home from "../Pages/Home/Home";
+import Login from "../Pages/Login";
 
 
 
@@ -16,6 +17,10 @@ import Home from "../Pages/Home/Home";
             {
                 path:'/',
                 element:<Home/>
+            },
+            {
+              path:'/login',
+              element:<Login/>
             }
           ]
         },
